@@ -13,12 +13,20 @@ export default function Clients() {
     <>
       {!loading && !error && (
         <table className='table table-hover mt-3'>
-          <thead>
+          <thead className='table-light'>
             <tr>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Phone</th>
-              <th></th>
+              <th className='text-center' style={{ width: '25%' }}>
+                Name
+              </th>
+              <th className='text-center' style={{ width: '25%' }}>
+                Email
+              </th>
+              <th className='text-center' style={{ width: '25%' }}>
+                Phone
+              </th>
+              <th className='text-center' style={{ width: '25%' }}>
+                Actions
+              </th>
             </tr>
           </thead>
           <tbody>
