@@ -10,7 +10,6 @@ const {
   GraphQLNonNull,
   GraphQLEnumType,
 } = require('graphql');
-const { profileEnd } = require('console');
 
 // Client type
 const ClientType = new GraphQLObjectType({
